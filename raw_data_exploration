@@ -1,0 +1,27 @@
+--Done by Big Query SQL
+--First Step: Combine the files together
+
+CREATE TABLE IF NOT EXISTS `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis` AS 
+(
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202301`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202302`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202303`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202304`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202305`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202306`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202307`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202308`
+  UNION ALL
+  SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202309`
+);
+
+-- Second step:
+SELECT COUNT(*) as Initial_data_rows
+FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`
