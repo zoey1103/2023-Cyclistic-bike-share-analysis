@@ -32,7 +32,7 @@ In order to answer the key business questions, I followed the steps of the data 
   3. The data is stored in CSV files. Each file contains one month data. Thus a total of 9 .csv files.
   4. The data is structured data ie., Organised data.
   5. For the purposes of this case study, datasets are generated from a fictional company. The datasets are appropriate and it have been made available by Motivate International Inc. under this **license**(https://www.divvybikes.com/data-license-agreement).
-  6. As this data is collected by a real bike sharing company in Chicago, there are **no issues with bias or credibility**. So its Reliable, Original, Current and Cited (as in ROCCC). I do **not** think its **Comprehensive** because this data lacks some information.
+  6. As this data is collected by a real bike sharing company in Chicago, there are **no issues with bias or credibility**. So it's Reliable, Original, Current and Cited (as in ROCCC). I do think it's  **Not Comprehensive** because this data lacks some information.
   7. Data Integrity: It's **Accurate**, **Consistent** and **Trustworthy**.
 
 ### 4. Process
@@ -44,6 +44,7 @@ In order to answer the key business questions, I followed the steps of the data 
   4. Decide to eliminate empty start_station/end_station rows and rows that travel time is shorter then 1min or longer than a day
   5. Create new table for cleaned data
   6. Analysis trend from cleaned data
+     
        -  Time Aspect
          -  Monthly number of rides bewteen memebr and casual
          -  Weekly number of rides bewteen memebr and casual
