@@ -1,6 +1,7 @@
 # 2023-Cyclistic-bike-share-analysis
-## 1. Introduction 
-How do annual members and casual riders use Cyclistic bikes differently?
+## How do annual members and casual riders use Cyclistic bikes differently?
+
+### 1. Introduction 
 
 This case study is the **Capstone Project of Google Data Analytics Professional Certificate** . In this case study I am working as a junior data analyst in the marketing analyst team at Cyclistic, a fictional bike-share company in Chicago.
 
