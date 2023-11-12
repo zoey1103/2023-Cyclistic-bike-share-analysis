@@ -22,6 +22,51 @@ CREATE TABLE IF NOT EXISTS `data-analytics-capstone-404207.Cyclistic.Cyclistic b
   SELECT * FROM `data-analytics-capstone-404207.Cyclistic.202309`
 );
 
--- Second step:
-SELECT COUNT(*) as Initial_data_rows
+-- Second step: Explore data null value and basic trends
+-- Datasize
+SELECT 
+  COUNT(*) as Initial_data_rows
+FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`;
+
+-- Null value inspect
+-- Found there's null value in start station name and end station names 
+SELECT 
+  COUNT(*) - COUNT(ride_id) ride_id,
+  COUNT(*) - COUNT(rideable_type) rideable_type,
+  COUNT(*) - COUNT(started_at) started_at,
+  COUNT(*) - COUNT(ended_at) ended_at,
+  COUNT(*) - COUNT(start_station_name) start_station_name,
+  COUNT(*) - COUNT(start_station_id) start_station_id,
+  COUNT(*) - COUNT(end_station_name) end_station_name,
+  COUNT(*) - COUNT(end_station_id) end_station_id,
+  COUNT(*) - COUNT(start_lat) start_lat,
+  COUNT(*) - COUNT(start_lng) start_lng,
+  COUNT(*) - COUNT(end_lat) end_lat,
+  COUNT(*) - COUNT(end_lng) end_lng,
+  COUNT(*) - COUNT(member_casual) member_casual
+FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`;
+
+-- See lack of start staion name how much it will impact
+Select 
+  start_station_name,
+  COUNT(*) AS null_start_station_num,
+  ROUND(COUNT(*)*100/(SELECT COUNT(*) FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`),2 )AS percentage_of_null_start_station,
+  member_casual  
 FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`
+WHERE start_station_name IS NULL
+GROUP BY start_station_name, member_casual;
+
+
+-- See lack of end staion name how much it will impact
+Select 
+  end_station_name,
+  COUNT(*) AS null_end_station_num,
+  ROUND(COUNT(*)*100 / (SELECT count(*) from `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`),2)AS percentage_of_end_start_station,
+  member_casual
+FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`
+WHERE end_station_name IS NULL
+GROUP BY end_station_name, member_casual;
+
+
+-- Third Step: Create new columns for further anlysis 
+-- Timestamp transfer
