@@ -15,4 +15,42 @@ There are 3 pricing plans: single-ride passes, full-day passes, and annual membe
 
 In order to answer the key business questions, I followed the steps of the data analysis process: ask, prepare, process, analyze, share, and act.
 
-##
+### 2. Ask
+
+**Business Task**: 
+  1. Identify trends to provide insigths for excuetive teams aprroval
+  2. Recommendations for marketing team how to convert casual riders to memebrship riders
+**Key Stakeholders :**
+  1. Lily Moreno: Director of Marketing.
+  2. Cyclistic executive team.
+
+
+### 3.Prepare
+
+  1. The data I used is Cyclistic’s Historical Trip Data to analyze and identify trends.
+  2. This year 9 months data from 2023 January 1 to 2023 September 30 is used for analysis.
+  3. The data is stored in CSV files. Each file contains one month data. Thus a total of 9 .csv files.
+  4. The data is structured data ie., Organised data.
+  5. For the purposes of this case study, datasets are generated from a fictional company. The datasets are appropriate and it have been made available by Motivate International Inc. under this **license**(https://www.divvybikes.com/data-license-agreement).
+  6. As this data is collected by a real bike sharing company in Chicago, there are **no issues with bias or credibility**. So its Reliable, Original, Current and Cited (as in ROCCC). I do **not** think its **Comprehensive** because this data lacks some information.
+  7. Data Integrity: It's **Accurate**, **Consistent** and **Trustworthy**.
+
+### 4. Process
+  1. Combine 9 months data into a file
+  2. Explore data null value and basic trends, ex.
+  3. Create new columns for further anlysis :
+      * Timestamp transfer: month/day_of_week/hour
+      * Trip duration column add to investigate travel time
+  4. Decide to eliminate empty start_station/end_station rows and rows that travel time is shorter then 1min or longer than a day
+  5. Create new table for cleaned data
+  6. Analysis trend from cleaned data
+       -  Time Aspect
+         -  Monthly number of rides bewteen memebr and casual
+         -  Weekly number of rides bewteen memebr and casual
+         -  Hourly number of rides between member and casual
+          
+       - Bike Type Aspect
+         - Different usage preference between member and casual
+     
+       - Station Aspect
+         - Largest usage station between member and casual
