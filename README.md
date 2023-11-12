@@ -50,38 +50,40 @@ In order to answer the key business questions, I followed the steps of the data 
   
 ### 5. Analysis trend from cleaned data
      
-  **1. Time Aspect**
-         * Monthly number of rides bewteen memebr and casual
-         * Weekly number of rides bewteen memebr and casual
-         * Hourly number of rides between member and casual
-         * Average travel time per ride between member and casual
+**1. Time Aspect**
+
+  * Monthly number of rides bewteen memebr and casual
+  * Weekly number of rides bewteen memebr and casual
+  * Hourly number of rides between member and casual
+  * Average travel time per ride between member and casual
           
-  **2. Bike Type Aspect**
-         * Different usage preference between member and casual
-         * Percentage use of each biketype
+**2. Bike Type Aspect**
+
+  * Different usage preference between member and casual
+  * Percentage use of each biketype
      
-  **3. Station Aspect**
-         * Largest usage station per number of rides
-         * Rank the largest usage station member and casual rider percentage
+**3. Station Aspect**
+  * Largest usage station per number of rides
+  * Rank the largest usage station member and casual rider percentage
 
-###  6. Share
+### 6. Share
 
-    1. Table and visual graphs for each topics
-    2. Create Dashboard by Tableau for the summary
-    3. Conclusion:
-        a. Jun-Sep has the heaviest usage during a year, considering weather, summer time people enjoy a bike ride more often
-        b. By number of rides, member > casual, however by travel time casual user > member,
-        c. Looking into hourly rides, 16-19 has the higest run rate, we can suspect mostly it's used by commute
-        d. By the bike type, member using classic bike takes nearly a half(40%) of all types
-        e. Docked bike is only used by casual riders
-        f. Top 3 heaviest used station are Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Michigan Ave & Oak St
-        g. Trends also show that among 3 top stations, up to 61%-73% users are casual rider, which brings up a good target to market on these users
+  1. Table and visual graphs for each topics
+  2. Create Dashboard by Tableau for the summary
+  3. Conclusion:
+     * Jun-Sep has the heaviest usage during a year, considering weather, summer time people enjoy a bike ride more often
+     * By number of rides, member > casual, however by travel time casual user > member
+     * Looking into hourly rides, 16-19 has the higest run rate, we can suspect mostly it's used by commute
+     * By the bike type, member using classic bike takes nearly a half(40%) of all types
+     * Docked bike is only used by casual riders
+     * Top 3 heaviest used station are Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Michigan Ave & Oak St
+     * Trends also show that among 3 top stations, up to 61%-73% users are casual rider, which brings up a good target to market on these users
 
 ### 7. Act
 
-    My Recommendations:
-     1. Giving out membership discount on summer seasons to attract more casual riders
-     2. Broadcast a trial membership experience when casual riders use it 3 times a week at commute hour
-     3. Target casual riders at top 3 stations, hold a campagin around these stations, and to promote cyclistic membership.
+  My Recommendations:
+  1. Giving out membership discount on summer seasons to attract more casual riders
+  2. Broadcast a trial membership experience when casual riders use it 3 times a week at commute hour
+  3. Target casual riders at top 3 stations, hold a campagin around these stations, and to promote cyclistic membership.
         (ex. design a free city ride tour for membership, and casual rider can join tour for $50, meantime join the membership today has yeraly membership discount, and free city ride tour)
     
