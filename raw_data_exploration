@@ -29,7 +29,7 @@ SELECT
 FROM `data-analytics-capstone-404207.Cyclistic.Cyclistic bike share analysis`;
 
 -- Null value inspect
--- Found there's null value in start station name and end station names 
+-- Found there's null value in start/end station name, start/end station id, and longtitude/latitude
 SELECT 
   COUNT(*) - COUNT(ride_id) ride_id,
   COUNT(*) - COUNT(rideable_type) rideable_type,
