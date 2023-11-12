@@ -36,22 +36,45 @@ In order to answer the key business questions, I followed the steps of the data 
   7. Data Integrity: It's **Accurate**, **Consistent** and **Trustworthy**.
 
 ### 4. Process
-  1. Combine 9 months data into a file
-  2. Explore data null value and basic trends, ex.
-  3. Create new columns for further anlysis :
+  1  All the process
+  2. Combine 9 months data into a file
+  3. Explore data null value and basic trends, ex.
+  4. Create new columns for further anlysis :
       * Timestamp transfer: month/day_of_week/hour
       * Trip duration column add to investigate travel time
-  4. Decide to eliminate empty start_station/end_station rows and rows that travel time is shorter then 1min or longer than a day
-  5. Create new table for cleaned data
-  6. Analysis trend from cleaned data
+  5. Decide to eliminate empty start_station/end_station rows and rows that travel time is shorter then 1min or longer than a day
+  6. Create new table for cleaned data
+
+  
+### 5. Analysis trend from cleaned data
      
        -  Time Aspect
-         -  Monthly number of rides bewteen memebr and casual
-         -  Weekly number of rides bewteen memebr and casual
-         -  Hourly number of rides between member and casual
+         - Monthly number of rides bewteen memebr and casual
+         - Weekly number of rides bewteen memebr and casual
+         - Hourly number of rides between member and casual
+         - Average travel time per ride between member and casual
           
        - Bike Type Aspect
          - Different usage preference between member and casual
+         - Percentage use of each biketype
      
        - Station Aspect
-         - Largest usage station between member and casual
+         - Largest usage station per number of rides
+         - Rank the largest usage station member and casual rider percentage
+
+###  6. Share
+
+    1. Table and visual graph for each topics
+    2. Dashboard for the summary
+    3. Conclusion:
+        - Jun-Sep has the heaviest usage during a year, considering weather, summer time people enojoys a bike ride
+        - By number of rides, member > casual, however by travel time casual user > member, which can suspect memebr usaully choose cyclistic bike as an commute option, and casual users use it for leisure.
+        - By the bike type, member using classic take nearly a half(40%) of all types
+        - Docked bike is only used by casual riders
+        - Top 3 heaviest used station are Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Michigan Ave & Oak St
+        - Trends also show that among 3 top stations, up to 61%-73% users are casual rider, which brings up a good target to market on these users
+
+### 7. Act
+    My Recommendations:
+     1. 
+    
