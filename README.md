@@ -20,7 +20,8 @@ In order to answer the key business questions, I followed the steps of the data 
 **Business Task**: 
   1. Identify trends to provide insigths for excuetive teams aprroval
   2. Recommendations for marketing team how to convert casual riders to memebrship riders
-**Key Stakeholders :**
+
+**Key Stakeholders**:
   1. Lily Moreno: Director of Marketing.
   2. Cyclistic executive team.
 
@@ -28,7 +29,7 @@ In order to answer the key business questions, I followed the steps of the data 
 ### 3.Prepare
 
   1. The data I used is Cyclistic’s Historical Trip Data to analyze and identify trends.
-  2. This year 9 months data from 2023 January 1 to 2023 September 30 is used for analysis.
+  2. 9-months data from 2023 January 1 - 2023 September 30 are used for analysis.
   3. The data is stored in CSV files. Each file contains one month data. Thus a total of 9 .csv files.
   4. The data is structured data ie., Organised data.
   5. For the purposes of this case study, datasets are generated from a fictional company. The datasets are appropriate and it have been made available by Motivate International Inc. under this **license**(https://www.divvybikes.com/data-license-agreement).
@@ -36,7 +37,8 @@ In order to answer the key business questions, I followed the steps of the data 
   7. Data Integrity: It's **Accurate**, **Consistent** and **Trustworthy**.
 
 ### 4. Process
-  1  All the process
+
+  1. All the process are done by SQL
   2. Combine 9 months data into a file
   3. Explore data null value and basic trends, ex.
   4. Create new columns for further anlysis :
@@ -48,33 +50,36 @@ In order to answer the key business questions, I followed the steps of the data 
   
 ### 5. Analysis trend from cleaned data
      
-       -  Time Aspect
-         - Monthly number of rides bewteen memebr and casual
-         - Weekly number of rides bewteen memebr and casual
-         - Hourly number of rides between member and casual
-         - Average travel time per ride between member and casual
+    **1. Time Aspect**
+         * Monthly number of rides bewteen memebr and casual
+         * Weekly number of rides bewteen memebr and casual
+         * Hourly number of rides between member and casual
+         * Average travel time per ride between member and casual
           
-       - Bike Type Aspect
-         - Different usage preference between member and casual
-         - Percentage use of each biketype
+    **2. Bike Type Aspect**
+         * Different usage preference between member and casual
+         * Percentage use of each biketype
      
-       - Station Aspect
-         - Largest usage station per number of rides
-         - Rank the largest usage station member and casual rider percentage
+   ** 3. Station Aspect**
+         * Largest usage station per number of rides
+         * Rank the largest usage station member and casual rider percentage
 
 ###  6. Share
 
-    1. Table and visual graph for each topics
-    2. Dashboard for the summary
+    1. Table and visual graphs for each topics
+    2. Creat Dashboard by Tableau for the summary
     3. Conclusion:
-        - Jun-Sep has the heaviest usage during a year, considering weather, summer time people enojoys a bike ride
-        - By number of rides, member > casual, however by travel time casual user > member, which can suspect memebr usaully choose cyclistic bike as an commute option, and casual users use it for leisure.
-        - By the bike type, member using classic take nearly a half(40%) of all types
-        - Docked bike is only used by casual riders
-        - Top 3 heaviest used station are Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Michigan Ave & Oak St
-        - Trends also show that among 3 top stations, up to 61%-73% users are casual rider, which brings up a good target to market on these users
+        a. Jun-Sep has the heaviest usage during a year, considering weather, summer time people enjoy a bike ride more often
+        b. By number of rides, member > casual, however by travel time casual user > member,
+        c. Looking into hourly rides, 16-19 has the higest run rate, we can suspect mostly it's used by commute
+        d. By the bike type, member using classic bike takes nearly a half(40%) of all types
+        e. Docked bike is only used by casual riders
+        f. Top 3 heaviest used station are Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Michigan Ave & Oak St
+        g. Trends also show that among 3 top stations, up to 61%-73% users are casual rider, which brings up a good target to market on these users
 
 ### 7. Act
     My Recommendations:
-     1. 
+     1. Giving out member discount on summer season to attract more casual riders
+     2. Broadcast a trial membership experience when casual riders use it 3 times a week at commute hour
+     3. Target casual riders at top 3 stations, hold a campagin (ex. design a city ride tour for membership) around these stations, and to promote cyclistic membership   
     
