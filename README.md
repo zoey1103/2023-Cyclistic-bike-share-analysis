@@ -42,13 +42,13 @@ In order to answer the key business questions, I followed the steps of the data 
   2. Combine 9 months data into a file
   3. Explore data null value and basic trends, ex.
   4. Create new columns for further anlysis :
-      * Timestamp transfer: month/day_of_week/hour
-      * Trip duration column add to investigate travel time
-  5. Decide to eliminate empty start_station/end_station rows and rows that travel time is shorter then 1min or longer than a day
+      * Timestamp transfer: month/weekday/hour
+      * Trip duration column is added to investigate travel time
+  5. Decide to eliminate empty start_station/end_station rows and rows that travel time is shorter than 1min or longer than  1 day
   6. Create new table for cleaned data
 
   
-### 5. Analysis trend from cleaned data
+### 5. Analysize trend from cleaned data
      
 **1. Time Aspect**
 
@@ -60,11 +60,11 @@ In order to answer the key business questions, I followed the steps of the data 
 **2. Bike Type Aspect**
 
   * Different usage preference between member and casual
-  * Percentage use of each biketype
+  * Percentage of each biketype use
      
 **3. Station Aspect**
-  * Largest usage station per number of rides
-  * Rank the largest usage station member and casual rider percentage
+  * Largest Transport station per number of rides
+  * Rank the Largest Transport Station by member and casual rider percentage
 
 ### 6. Share
 
