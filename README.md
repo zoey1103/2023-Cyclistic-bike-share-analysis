@@ -29,7 +29,7 @@ In order to answer the key business questions, I followed the steps of the data 
 ### 3.Prepare
 
   1. The data I used is Cyclistic’s Historical Trip Data to analyze and identify trends.
-  2. 9-months data from 2023 January 1 - 2023 September 30 are used for analysis.
+  2. 9-months data from 2023 January 1 - 2023 September 30 are used for analysis.( As 2023-7 and 2023-8 data are over 25MB, I'm not able to upload to Github)
   3. The data is stored in CSV files. Each file contains one month data. Thus a total of 9 .csv files.
   4. The data is structured data ie., Organised data.
   5. For the purposes of this case study, datasets are generated from a fictional company. The datasets are appropriate and it have been made available by Motivate International Inc. under this **license**(https://www.divvybikes.com/data-license-agreement).
